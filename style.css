@@ -1,0 +1,36 @@
+body{
+    
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: rgb(238, 156, 156);
+    color: black;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.445);
+    padding: 10px;
+    margin: auto;
+    font-size: 16px;
+}
+
+#notasInseridas{
+    width: 100%;
+}
+
+.bt1{
+    background-color: rgb(125, 187, 212);
+    width: 83px;
+    height: 42px;
+    border-color: bisque;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font: normal 16px Arial;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Média de Notas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body background="img/bg1.png">
+    <header><h1>Média das Notas dos Alunos</h1></header>
+
+    <section>
+      <!-- Elements que recebem as notas dos alunos -->
+      <div id="entradaValores">
+        <p>
+          Nota:
+          <input type="text" id="entradaNota" />
+          <button id="btnAdicionar" onclick="adicionar()">Adicionar</button>
+        </p>
+        <p></p>
+        <select name="notasInseridas" id="notasInseridas" size="10"></select>
+      </div>
+
+      <!-- Espaço para o cálculo da média -->
+      <div>
+        <center>
+          <p>
+            <button class="bt1" id="btnMedia" onclick="calcMedia()">
+              Calcular Média
+            </button>
+          </p>
+        </center>
+        <p id="media">A média é:</p>
+      </div>
+    </section>
+
+    <footer><p id="footer">&copy; Notas</p></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
